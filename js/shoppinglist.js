@@ -37,14 +37,14 @@ $(document).ready(function(){
 	//if delete remove this list item
 	$('.delete').click(function(){
 		console.log('delete clicked');
-		//delete this.li
+		//delete this.li.remove();
 		$
 	});
 
 	//reset click button class="list-reset"
 	$('.list-reset').click(function(){
 		console.log('list reset clicked');
-		//clear shopping-list
+		//clear shopping-list.remove()
 	});
 
 	//email click  button class="email"
