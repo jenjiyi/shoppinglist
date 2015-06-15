@@ -1,0 +1,95 @@
+body{
+	background-color: #e4ddd5;
+	font-family: Quicksand, sans-serif;
+	font-weight: 700;
+}
+h1, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-header{
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background-color: #4e4747;
+	padding: 2.5em 0;
+}
+.navbar-inverse{
+	background-color: #4e4747;
+}
+h1 {
+	font-family: Ultra, Geneva, sans-serif;
+	font-size: 3em;
+	color: #e4ddd5;
+	letter-spacing: .35em;
+}
+.intro {
+	color: #e4ddd5;
+	font-size: 1em; 
+}
+.list-icon{
+	width: 40px;
+}
+.app-body{
+	width: 60%;
+	min-width: 280px;
+	margin: 207px auto 0;
+}
+/** form elements **/
+form {
+	border: 3px solid #4e4747;
+	padding: 0.5em;
+	font-size: 1.25em;
+}
+button, input {
+	border: 0;
+	background-color: #e4ddd5;
+}
+.item-input {
+	width: 90%;
+	height: 2em;
+	margin: 1em 0 0 0;
+	background-color: rgba(255, 255, 255, 0.45)
+}
+.item-submit {
+	width: 9%;
+}
+.shopping-list{	
+	list-style: none;
+	padding: 0;
+	}
+.item {
+	line-height: 1.5em;
+	height: 2em;
+	text-indent: none;
+	border-bottom: 3px solid #4e4747;
+	color: #09606b;
+	padding: 2px 0 0;
+}
+.item .inactive {
+	color: #ccc;
+}
+form button {
+	border: 3px solid #09606b;
+}
+form button:hover{
+	background-color: #09606b;
+	color: #fff;
+}
+.shopping-list li:first-child{
+	margin-top: 2em;}
+
+.box, .delete {
+	font-size: 1.5em; 
+}
+.delete{
+	color: #f15a24;
+	font-weight: bold;
+	float: right;
+}
+.checked {
+	background-color: #ccc;
+	color: #555;
+}
+
