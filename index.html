@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Shopping list">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Shopping list | Jenny Yamada</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <h1>Shopping List</h1><p class="intro">by Jenny Yamada</p>
+          <img src="images/icon-list.png" alt="List icon" class="list-icon">
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="app-body">
+        
+        <p class="lead">Enter each item in the textbox below and press enter</p>
+
+        <form id="shopping-form"><input type="text" class="item-input" maxlength="69"><button type="submit" class="item-submit">+</button>
+          <div class="message-no-content">Enter something in the textbox</div>
+        <ul class="shopping-list">
+          <!--<li class="item unchecked"><span class="box"><i class="fa fa-square"></i>
+</span>Some item<span class="delete"><i class="fa fa-times"></i>
+</span></li>
+      <li class="item checked"><span class="box"><i class="fa fa-check-square"></i>
+</span>Some item<span class="delete"><i class="fa fa-times"></i>
+</span></li>-->
+          
+        </ul>
+        <button class="list-reset">Reset</button>
+        <button class="email">E-mail List</button>
+        <input type="email">
+        </form>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!--  core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/shoppinglist.js"></script>
+  </body>
+</html>
