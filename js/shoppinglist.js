@@ -14,16 +14,26 @@ $(document).ready(function(){
 	$('.item-submit').click(function( event ) {
 		/*  variables: input val and <li> */
 		var $listItem = $('.item-input').val();
+<<<<<<< HEAD
 		var $listHtml = ("<li class='item'><span class='box unchecked'><i class='fa fa-square'></i></span>" + $listItem + "<span class='delete'><i class='fa fa-times'></i></span></li>" );
 			event.preventDefault();
 			if ($listItem.trim().length == 0){
 				console.log("Enter something in the textbox");
 				$('.message-no-content').css('display', 'block');
+=======
+		var $listHtml = ("<li class='item'><span class='box unchecked'><i class='fa fa-square'></i></span> " + $listItem + "<span class='delete'><i class='fa fa-times'></i></span></li>" );
+			event.preventDefault();
+			if ($listItem.trim().length == 0){
+				alert("Enter something in the textbox");
+>>>>>>> 2b27699694bcbc40e16547a230aebe2e05846136
 				}
 			else {
 				$('.shopping-list').append($listHtml);
 				$('.item-input').val("");
+<<<<<<< HEAD
 				$('.message-no-content').css('display', 'none');
+=======
+>>>>>>> 2b27699694bcbc40e16547a230aebe2e05846136
 			};
 		}); 
 
