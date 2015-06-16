@@ -7,6 +7,9 @@ h1, p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+ .navbar-fixed-top {
+  position: static;
+  }
 .navbar-header{
 	float: none;
 	text-align: center;
@@ -34,7 +37,7 @@ h1 {
 .app-body{
 	width: 60%;
 	min-width: 280px;
-	margin: 207px auto 0;
+	margin: 0 auto;
 }
 /** form elements **/
 form {
