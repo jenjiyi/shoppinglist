@@ -53,11 +53,7 @@ button, input {
 	background-color: rgba(255, 255, 255, 0.45)
 }
 .item-submit {
-<<<<<<< HEAD
 	width: 10%;
-=======
-	width: 9%;
->>>>>>> 2b27699694bcbc40e16547a230aebe2e05846136
 }
 .shopping-list{	
 	list-style: none;
@@ -81,7 +77,6 @@ form button:hover{
 	background-color: #09606b;
 	color: #fff;
 }
-<<<<<<< HEAD
 .shopping-list {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -89,11 +84,10 @@ form button:hover{
 .box {
 	margin-right: 4px;
 }
-=======
+
 .shopping-list li:first-child{
 	margin-top: 2em;}
 
->>>>>>> 2b27699694bcbc40e16547a230aebe2e05846136
 .box, .delete {
 	font-size: 1.5em; 
 }
@@ -105,14 +99,10 @@ form button:hover{
 .checked {
 	background-color: #ccc;
 	color: #555;
-<<<<<<< HEAD
 	text-decoration: line-through;
 }
 .message-no-content {
 	display: none;
 	color: #f15a24;
 }
-=======
-}
 
->>>>>>> 2b27699694bcbc40e16547a230aebe2e05846136
