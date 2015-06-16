@@ -26,26 +26,29 @@ $(document).ready(function(){
 		}); 
 
 	
-
-	//if this list itme checked change state list class to checked
-	$('.unchecked').click(function (){
-		console.log('unchecked box clicked');
-		//toggle li class to checked 
-		//change i class to <i class="fa fa-check-square"></i>
+	//if this list itme checked, list class to checked, change icon to
+	$('ul').on('click', '.unchecked', function(event){
+		console.log('checked off');
+		event.preventDefault();
+		//$(this).removeClass("unchecked").addClass("checked");
+		$(this).parent('li').toggleClass("checked");
+		$(this).children('i').toggleClass("fa-check-square");
 	});
 
-	//if delete remove this list item
-	$('.delete').click(function(){
+	//if x is clicked remove this list item
+	$('ul').on('click', '.delete', function(event){
 		console.log('delete clicked');
-		//delete this.li.remove();
-		$
+		event.preventDefault();
+		$(this).parent().remove();
 	});
 
-	//reset click button class="list-reset"
-	$('.list-reset').click(function(){
-		console.log('list reset clicked');
-		//clear shopping-list.remove()
+//reset click button class="list-reset"
+$('button').on('click', '.list-reset', function(event){
+		console.log('reset button clicked');
+		event.preventDefault();
+		$('.shopping-list').children().remove();
 	});
+
 
 	//email click  button class="email"
 	$('.email').click(function() {
