@@ -33,8 +33,8 @@ $(document).ready(function(){
 		console.log('checked off');
 		event.preventDefault();
 		//$(this).removeClass("unchecked").addClass("checked");
-		$(this).parent('li').toggleClass("checked");
-		$(this).children('i').toggleClass("fa-check-square");
+		$(this).parent('li').toggleClass("checked", 600);
+		$(this).children('i').toggleClass("fa-check-square", 600);
 	});
 
 	//if x is clicked remove this list item
@@ -44,21 +44,27 @@ $(document).ready(function(){
 		$(this).parent().remove();
 	});
 
-//reset click button class="list-reset"
-$('button').on('click', '.list-reset', function(event){
+	//reset click button class="list-reset"
+	$('button').on('click', '.list-reset', function(event){
 		console.log('reset button clicked');
 		event.preventDefault();
 		$('.shopping-list').children().remove();
 	});
-
+	//print list
+	$('.print').click(function() {
+		console.log('print clicked');
+		document.print();
+	});
 
 	//email click  button class="email"
+	/*
 	$('.email').click(function() {
 		//check if input[type=email] valid email
 		//send webpage to email
 		console.log('email clicked');
 
 	});
+	*/
 
 
 })
