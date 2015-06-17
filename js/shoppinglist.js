@@ -53,7 +53,7 @@ $(document).ready(function(){
 	//print list
 	$('.print').click(function() {
 		console.log('print clicked');
-		window.print();
+		window.print(); 
 	});
 
 	//email click  button class="email"
